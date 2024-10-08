@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px auto;
+    max-width: 80%;
+  }
+
+/* Callback Section */
+.callback-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.callback-section h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.callback-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.callback-form input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    width: calc(100% - 30px);
+    max-width: 30%;
+    flex-grow: 1;
+}
+
+.callback-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 30px);
+    max-width: 20%;
+    flex-grow: 1;
+}
+
+.callback-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

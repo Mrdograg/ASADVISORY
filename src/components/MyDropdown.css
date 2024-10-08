@@ -1,0 +1,32 @@
+.tile-dropdown {
+    display: flex;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  .tile-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .tile-link {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    background-color: #493b3b;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 150px;
+    transition: background-color 0.3s;
+  }
+  
+  .tile-link:hover {
+    background-color: #ececec;
+  }
+  

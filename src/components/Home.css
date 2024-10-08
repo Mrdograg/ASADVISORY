@@ -1,0 +1,366 @@
+/* Global styling to prevent horizontal scroll */
+body, html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color-scheme: light dark ;
+}
+
+/* Container styling for the home page */
+.home-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Left side buttons */
+.left-buttons {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.call-button img,
+.whatsapp-button img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Main content */
+.main-content {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main-content h1 {
+    font-size: 50px;
+    color: #333;
+}
+
+.main-content h2 {
+    font-size: 40px;
+    color: #333;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.main-content img {
+    width: 4%;
+}
+
+
+.lets-talk-button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.lets-talk-button:hover {
+    background-color: #555;
+}
+
+.start-project {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+
+/* Our Services section */
+.our-services {
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.our-services h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.services-list-BarImg {
+    object-fit: cover;
+    height: 4rem;
+    width: 5rem;
+    margin-right: 3rem;
+  }
+
+.services-left,
+.services-right {
+    list-style: none;
+    padding: 0;
+    flex-basis: 45%;
+    font-size: 0.9rem;
+    font-weight: 200;
+    
+    
+}
+
+.services-left li,
+.services-right li {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(8, 228, 228);
+    
+}
+
+.show-more-button {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-more-button:hover {
+    background-color: #555;
+}
+
+/* Why Choose Us section styling */
+.why-choose-us {
+    width: 80%;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.why-choose-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.why-choose-us p {
+    color: #110303;
+   margin-bottom: 15px;
+   font-size: 1.05rem;
+   max-width: 50rem;
+   padding: 0 2rem;
+}
+
+.explore-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.explore-button:hover {
+    background-color: #555;
+}
+
+/* Get a Quote button */
+.get-quote {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.get-quote button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.get-quote button:hover {
+    background-color: #555;
+}
+
+/* Feedback Section */
+.feedback-section {
+    width: 80%;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.feedback-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feedback-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feedback-item {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feedback-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.feedback-author {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.feedback-navigation {
+    margin-top: 20px;
+}
+
+.feedback-navigation button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.feedback-navigation button:hover {
+    background-color: #555;
+}
+
+/* Contact Us Section */
+.contact-us-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.contact-info-left {
+    width: 100%;
+    max-width: 45%;
+    font-size: 16px;
+}
+
+.contact-info-left h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info-left p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-info-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info-left li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 50%;
+    height: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Callback Section */
+.callback-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.callback-section h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.callback-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.callback-form input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    width: calc(100% - 30px);
+    max-width: 30%;
+    flex-grow: 1;
+}
+
+.callback-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 30px);
+    max-width: 20%;
+    flex-grow: 1;
+}
+
+.callback-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
